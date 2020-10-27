@@ -1,0 +1,100 @@
+.clear{
+	clear: both;
+}
+.pacman{
+	float: left;
+	margin-top: -30px;
+	margin-left: 40px;
+	height: 50px;
+	position: relative;
+	animation: mymove 15s infinite;
+}
+.start{
+	float: left;
+	height: 50px;
+	width: 10px;
+	transform: rotate(90deg);
+	color: red;
+}
+.finish{
+	height: 50px;
+	width: 10px;
+	transform: rotate(90deg);
+	margin-top: 200px;
+	margin-left: 10px
+	color: red;
+}
+.body{
+	background: black;
+}
+.box1{
+	margin:150px auto;
+	background: #fff;
+	width: 1100px;
+	height: 350px;
+	position: relative;
+	border: 10px solid blue;
+	border-radius: 25px;
+
+}
+.box2{
+	background: yellow;
+	margin-top: 30px;
+	width: 1000px;
+	height: 10px;
+	position: absolute;
+	box-shadow: 5px 5px #888888;
+	border-radius: 25px;
+}
+.box22{
+	background: yellow;
+	margin-top: 110px;
+	margin-left: 75px;
+	width: 1000px;
+	height: 10px;
+	position: absolute;
+	border-radius: 25px;
+	box-shadow: 5px 5px #888888;
+
+}
+.box222{
+	background: yellow;
+	margin-top: 190px;
+	width: 1000px;
+	height: 10px;
+	position: absolute;
+	border-radius: 25px;
+	box-shadow: 5px 5px #888888;
+}
+@keyframes mymove {
+  0%   {left: 0px; top: 0px;}
+  10%  {left: 980px; top: 0px;}
+  20%  {left: 980px; top:80px;}
+  30%  {left: -25px; top: 80px;}
+  40%  {left: -25px; top: 160px;}
+  50%  {left: 980px; top: 160px;}
+  60%  {left: 980px; top: 240px;}
+  70%  {left: 0px; top: 240px;}
+  80%  {left: 0px; top: 240px;}
+  90%  {left: 0px; top: 0px;}
+  100% {left: 0px; top: 0px;}
+
+}
+
+.pacman_text a{
+	font-family: 'Abril Fatface', cursive;
+	margin-top: 50px;
+	margin-left: 650px;
+	margin-right: 700px;
+	font-size: 50px;
+	color: yellow;
+
+}
+.click_here{
+	font-family: 'Abril Fatface', cursive;
+	font-size: 50px;
+	margin-top: 10px;
+	margin-left: 650px;
+}
+/*end index.html*/
+/*start aminations*/
